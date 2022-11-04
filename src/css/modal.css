@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.button-quotation {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button-quotation button {
+  background-color: black;
+  color: #ffcc01;
+  border-radius: 20px;
+  width: 70%;
+  height: 35px;
+  border: none;
+}
+
+.button-submit-quatation {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.button-submit-quatation button {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  width: 250px;
+  height: 35px;
+  border: none;
+}
+
+.moda-top {
+  font-size: 15px;
+  background-color: white;
+  padding: 40px;
+  border: 1px #ffcc01 solid;
+  border-radius: 20px;
+  position: relative;
+}
+
+.moda-top p {
+  text-align: center;
+}
+
+.button-close-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.cellphonenumber {
+  background-color: #ffcc01;
+  position: absolute;
+  width: 50%;
+  height: 40px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  bottom: -18px;
+}
+
+.cellphonenumber img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.cellphonenumber p {
+  padding: 12px 0px 0px 10px;
+  font-weight: bold;
+}
+
+.content-input {
+  position: relative;
+}
+
+.contet-input-hide {
+  display: none;
+}
+
+.logo-name-modal,
+.logo-email-modal {
+  position: absolute;
+  width: 20px;
+  top: 40px;
+  left: 10px;
+}
+
+.logo-cell-modal {
+  position: absolute;
+  width: 15px;
+  top: 38px;
+  left: 10px;
+}
+
+.logo-f-modal {
+  position: absolute;
+  width: 25px;
+  top: 43px;
+  left: 10px;
+}
+
+.logo-icome-modal {
+  position: absolute;
+  width: 20px;
+  top: 43px;
+  left: 10px;
+}
+
+.input-style {
+  text-indent: 25px;
+  border: 1px white solid;
+  background-color: #fadb5f;
+  border-radius: 15px;
+}
+
+.content-model {
+  background-color: #ffcc01;
+  border-radius: 20px;
+}
+
+.modal-content {
+  background-color: transparent;
+  border: none;
+}
+
+.all-inputs {
+  padding: 30px;
+}
+
+.prueba {
+  border-radius: 20px;
+}
+
+/* -----------------------------desktop view -------------------------- */
+
+@media screen and (min-width: 100px) {
+  .button-quotation button {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .button-quotation button {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .button-quotation button {
+    font-size: 15px;
+  }
+}

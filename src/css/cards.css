@@ -1,0 +1,162 @@
+/* -----------------------------button-filter -------------------------- */
+
+.button-filter {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.button-filter button {
+  background-color: #ffcc01;
+  border: none;
+  border-radius: 20px;
+  width: 180px;
+  height: 40px;
+  font-weight: bold;
+}
+
+/* -----------------------------Content-cards -------------------------- */
+
+.content-cards {
+  border: 1px solid #ffcc01;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-top: 40px;
+}
+
+.img-carousel {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.img-carousel img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.content-carousel {
+  position: relative;
+}
+
+.content-bonus {
+  background-color: #ffcc01;
+  display: flex;
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  right: 0px;
+  top: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  z-index: 1;
+}
+
+.content-info-bonus p {
+  margin: 0px;
+  padding-top: 5px;
+  margin-right: 10px;
+  font-size: 15px;
+}
+
+.content-bonus img {
+  padding: 12px;
+}
+
+.content-location {
+  background-color: white;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  right: 0;
+  left: 0;
+  bottom: -20px;
+  padding-top: 25px;
+  z-index: 1;
+}
+
+.content-location img {
+  width: 25px;
+  height: 25px;
+}
+
+.content-location p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.footer-card {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.content-info-card p {
+  margin: 0px 0px 0px 10px;
+  font-size: 1rem;
+}
+
+.icons-info {
+  width: 10%;
+  padding: 4px;
+}
+
+.buttons-paging {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttons-paging button {
+  background-color: #ffcc01;
+  border: none;
+  border-radius: 50px;
+  height: 50px;
+  width: 50px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* -----------------------------desktop view -------------------------- */
+
+@media screen and (min-width: 576px) {
+  .content-cards {
+    margin: 20px 10px;
+  }
+  .content-bonus {
+    width: 150px;
+    height: 38px;
+  }
+  .content-info-bonus p {
+    font-size: 10px;
+  }
+  .footer-card p {
+    font-size: 0.6rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer-card p {
+    font-size: 0.8rem;
+  }
+  .content-bonus {
+    width: 200px;
+    height: 50px;
+  }
+  .content-info-bonus p {
+    font-size: 15px;
+  }
+}

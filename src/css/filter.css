@@ -1,0 +1,104 @@
+.text-title {
+  text-align: center;
+}
+
+.content-img {
+  width: 30px;
+  height: 30px;
+  border: 1px #e5c33d60 solid;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+
+.arrow-dropdown {
+  position: absolute;
+  right: 10px;
+  bottom: 12px;
+}
+
+.content-img img {
+  width: 50%;
+}
+
+.content-default-select h5 {
+  font-size: 15px;
+  margin: 10px 5px;
+}
+
+.content-default-select {
+  display: flex;
+  border: 0.5px #e5c33d60 solid;
+  border-radius: 10px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.selects {
+  padding: 0px 20px;
+}
+.content-defaul-select-border {
+  border-bottom: none;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.select-disable {
+  display: none;
+}
+
+.content-default-select:hover {
+  cursor: pointer;
+}
+
+.select-active {
+  border-bottom: 1px solid #e5c33d60;
+  border-left: 1px solid #e5c33d60;
+  border-right: 1px solid #e5c33d60;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.select-active p {
+  padding: 5px 60px 5px 40px;
+  margin: 0px;
+}
+
+hr {
+  color: #ffcc01;
+  margin: 0px 60px 0px 40px;
+}
+
+@media (hover: hover) {
+  .select-active p:hover {
+    cursor: pointer;
+  }
+}
+
+/* --------------------------------------------------------desktop view -------------------------- */
+
+@media screen and (min-width: 576px) {
+  .text-title {
+    text-align: start;
+  }
+  .content-default-select {
+    margin: 10px 10px 0px 10px;
+  }
+
+  .select-active {
+    margin: 0px 10px 10px 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .selects {
+    padding: 10px 100px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .selects {
+    padding: 10px 200px;
+  }
+}
